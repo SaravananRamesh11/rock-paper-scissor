@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> rock paper scissor</title>
+    <link rel="stylesheet" type="text/css" href="css/design.css">   
+    
+  </head>
+
+  <body>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <button class="lit" onclick="lightse();">
+      <img src="pictures\bulb bright.png" class="brightbulb">
+    </button>
+
+    <h1 class="heading">
+      LET'S PLAY ROCK PAPER AND SCISSORS
+    </h1>
+
+    <button class="stonebutton" onclick="eval('rock');"> 
+      <img src="pictures/rock pic.jpeg" class="stonepic" >
+    </button>
+
+    
+    <button class="paperbutton" onclick="eval('paper'); ">
+      <img src="pictures/paper pic.png" class="paperpic" >
+    </button>
+
+    <button class="scissorbutton" onclick="eval('scissor'); ">
+      <img src="pictures/scissor pic.png" class="scissorpic" >
+    </button>
+
+    <p class="showboard">
+    
+    </p>
+
+    <p class="result">
+   
+    </p>
+
+    <button class="resetbutton" onclick="
+      score.wins=0;
+      score.losses=0;
+      score.draws=0;
+      localStorage.setItem('score',JSON.stringify(score));
+      updateResult();
+      " >
+      reset
+    </button>
+
+    
+
+
+
+    <script src="js/gva.js"></script>
+
+
+  </body>
+
+
+</html>

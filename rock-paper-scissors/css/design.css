@@ -1,0 +1,101 @@
+body{
+  font-family:'Poetsen one';
+  background-color: black;
+  color:white;
+  font-size:35px;
+  
+}
+.heading{
+  text-align:center;
+  font-weight:bold;
+  color:black;
+  background: linear-gradient(#7b4397,#dc2430);
+  color:transparent;
+  background-clip: text;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.stonepic{
+  height: 120px;
+  width: 120px;
+  margin-right: 16px;
+  border-radius:60px;
+  border-width:6px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+
+}
+.paperpic{
+  height: 120px;
+  width: 120px;
+  margin-right: 16px;
+  border-radius:60px;
+  border-width:6px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+.scissorpic{
+  height: 120px;
+  width: 120px;
+  margin-right: 16px;
+  border-radius:60px;
+  border-width:6px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+.stonebutton{
+  background: transparent;
+  border:none;
+}
+.paperbutton{
+  background: transparent;
+  border:none;
+}
+.scissorbutton{
+  background: transparent;
+  border:none;
+}
+
+.showboard,.result,.resetbutton{
+  margin-top: 55px;
+}
+.showboarduser,.showboardsystem{
+  height: 120px;
+  width: 120px;
+  margin-right: 16px;
+  border-radius:60px;
+  border-width:6px;
+  border-style: solid;
+  border-color: black;
+}
+.resetbutton{
+  border:none;
+  padding-left:15px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  padding-right: 15px;
+  background-color: green;
+  color:white;
+  border-radius:6px;
+  cursor: pointer;
+  
+}
+
+.fire{
+  background-color: white;
+  color: black;
+}
+.brightbulb{
+  height:25px;
+  breadth:25px;
+}
+.lit{             
+position: absolute;
+right:0;
+top:0;
+margin-top:5px;
+}
